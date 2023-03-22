@@ -7,10 +7,10 @@
 "use strict"
 
 // declare constants
-const TAX_BRACKET = 0.1805
+const TAX_BRACKET = 20.05
 
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates obtains hours of work and rate. 
  */
 function payClicked () {
   // get user input

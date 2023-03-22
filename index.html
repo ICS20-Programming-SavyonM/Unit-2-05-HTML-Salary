@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    
     <title>Salary, with a JS file</title>
   </head>
   <body>
@@ -27,13 +28,16 @@
         <input type="number" step="any" id="hours" placeholder="Hours"><br><br>
         <label for="hourly-rate">Hourly Rate: $</label>
         <input type="number" step="any" id="rate" placeholder="Rate"><br><br>
-        <input type="submit" value="Pay">
+        <input type="number" step="any" id="tax.toFixed(2)" placeholder="Rate"><br><br>
+        <input type="submit" value="Pay"> 
       </form>
     </p>
 		<!-- Create a space where the user information will be displayed -->
-		<div id="display-results">
+		<div id="display-results"> 
     	<div id="total-earned"></div>
 			<div id="tax"></div>
+      <div id="tax.toFixed(2)"></div>
+      <div id="total_earned.toFixed(2)"></div>
 		</div>
   </body>
 </html>
