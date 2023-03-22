@@ -13,6 +13,9 @@ const TAX_BRACKET = 20.05
  * This function calculates obtains hours of work and rate. 
  */
 function payClicked () {
+
+  document.getElementById('total-earned').innerHTML = "Your pay will be $" 
+  
   // get user input
   let hours = document.getElementById('hours').value
   let rate = document.getElementById('rate').value
